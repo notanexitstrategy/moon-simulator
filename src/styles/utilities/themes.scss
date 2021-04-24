@@ -1,0 +1,22 @@
+$theme-colors: (
+  "dark": (
+    "background": #202124,
+    "text": #e8eaed,
+    "primary": #83bcff,
+    "stonks": #23CE6B,
+  ),
+  "light": (
+    "background": #f9f9f9,
+    "text": #000000,
+    "primary": #4e5af1,
+    "stonks": #06bcc1,
+  ),
+);
+
+@mixin theme($property, $variant) {
+  @each $theme-name, $theme-variant in $theme-colors {
+    .theme-#{$theme-name} & {
+      #{$property}: map-get(map-get($theme-colors, $theme-name), $variant);
+    }
+  }
+}

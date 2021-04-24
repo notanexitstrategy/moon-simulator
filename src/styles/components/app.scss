@@ -1,0 +1,142 @@
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#root {
+  flex: 1;
+  min-height: 100%;
+  display: inherit;
+  flex-direction: inherit;
+}
+
+p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.app-container {
+  flex: 1;
+  min-height: 100%;
+  display: inherit;
+  flex-direction: inherit;
+}
+
+.page {
+  @include theme("background", "background");
+  @include theme("color", "text");
+  font-family: $rubik;
+  text-align: center;
+  flex: 1;
+  display: inherit;
+  flex-direction: inherit;
+  justify-content: space-between;
+
+  position: relative;
+
+  @include breakpoint(0, sm) {
+    padding: 15vh 24px 32px 24px;
+  }
+
+  @include breakpoint(md) {
+    padding: 15vh 10vw 32px 10vw;
+  }
+}
+
+.error {
+  color: red;
+}
+
+form {
+  margin: 0 auto;
+
+  @include breakpoint(0, sm) {
+    width: 100%;
+  }
+
+  @include breakpoint(md) {
+    width: 70vw;
+  }
+
+  .form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    line-height: 200%;
+
+    @include breakpoint(0, xs) {
+      font-size: 1.5rem;
+    }
+
+    @include breakpoint(sm) {
+      font-size: 2rem;
+    }
+
+    span {
+      display: inherit;
+      align-items: inherit;
+      margin: 0 0.7ch;
+    }
+
+    p {
+      @include breakpoint(0, xs) {
+        line-height: 170%;
+      }
+    }
+  }
+
+  .earnings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10vh;
+    word-break: break-word;
+   
+    .stonks-go-brr {
+      line-height: 200%;
+
+      @include breakpoint(0, xs) {
+        font-size: 2.2rem;
+      }
+
+      @include breakpoint(sm) {
+        font-size: 3rem;
+      }
+
+      strong {
+        @include theme("color", "stonks");
+      }
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 4rem 0;
+
+      li {
+        text-align: left;
+
+        @include breakpoint(0, xs) {
+          font-size: 1.5rem;
+          line-height: 200%;
+        }
+
+        @include breakpoint(sm) {
+          font-size: 2rem;
+          line-height: 300%;
+        }
+
+        &::before {
+          content: "\1F680";
+          padding-right: 1rem;
+        }
+      }
+    }
+  }
+}
