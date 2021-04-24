@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/moon-simulator/static/css/main.57bcea40.chunk.css",
-    "main.js": "/moon-simulator/static/js/main.90f8233c.chunk.js",
-    "main.js.map": "/moon-simulator/static/js/main.90f8233c.chunk.js.map",
-    "runtime-main.js": "/moon-simulator/static/js/runtime-main.f089f433.js",
-    "runtime-main.js.map": "/moon-simulator/static/js/runtime-main.f089f433.js.map",
-    "static/js/2.81fba197.chunk.js": "/moon-simulator/static/js/2.81fba197.chunk.js",
-    "static/js/2.81fba197.chunk.js.map": "/moon-simulator/static/js/2.81fba197.chunk.js.map",
-    "static/js/3.afde6ef6.chunk.js": "/moon-simulator/static/js/3.afde6ef6.chunk.js",
-    "static/js/3.afde6ef6.chunk.js.map": "/moon-simulator/static/js/3.afde6ef6.chunk.js.map",
+    "main.css": "/moon-simulator/static/css/main.fb866b06.chunk.css",
+    "main.js": "/moon-simulator/static/js/main.5439ebff.chunk.js",
+    "main.js.map": "/moon-simulator/static/js/main.5439ebff.chunk.js.map",
+    "runtime-main.js": "/moon-simulator/static/js/runtime-main.9c96dee9.js",
+    "runtime-main.js.map": "/moon-simulator/static/js/runtime-main.9c96dee9.js.map",
+    "static/js/2.69bb094b.chunk.js": "/moon-simulator/static/js/2.69bb094b.chunk.js",
+    "static/js/2.69bb094b.chunk.js.map": "/moon-simulator/static/js/2.69bb094b.chunk.js.map",
+    "static/js/3.55934514.chunk.js": "/moon-simulator/static/js/3.55934514.chunk.js",
+    "static/js/3.55934514.chunk.js.map": "/moon-simulator/static/js/3.55934514.chunk.js.map",
     "index.html": "/moon-simulator/index.html",
-    "static/css/main.57bcea40.chunk.css.map": "/moon-simulator/static/css/main.57bcea40.chunk.css.map",
-    "static/js/2.81fba197.chunk.js.LICENSE.txt": "/moon-simulator/static/js/2.81fba197.chunk.js.LICENSE.txt",
+    "static/css/main.fb866b06.chunk.css.map": "/moon-simulator/static/css/main.fb866b06.chunk.css.map",
+    "static/js/2.69bb094b.chunk.js.LICENSE.txt": "/moon-simulator/static/js/2.69bb094b.chunk.js.LICENSE.txt",
     "static/media/dark-mode.2ae31553.png": "/moon-simulator/static/media/dark-mode.2ae31553.png",
     "static/media/light-mode.005d04d3.png": "/moon-simulator/static/media/light-mode.005d04d3.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.f089f433.js",
-    "static/js/2.81fba197.chunk.js",
-    "static/css/main.57bcea40.chunk.css",
-    "static/js/main.90f8233c.chunk.js"
+    "static/js/runtime-main.9c96dee9.js",
+    "static/js/2.69bb094b.chunk.js",
+    "static/css/main.fb866b06.chunk.css",
+    "static/js/main.5439ebff.chunk.js"
   ]
 }
