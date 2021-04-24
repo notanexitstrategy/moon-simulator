@@ -1,7 +1,11 @@
 html {
   height: 100%;
 }
+
 body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   min-height: 100%;
   display: flex;
   flex-direction: column;
@@ -97,7 +101,7 @@ form {
     justify-content: center;
     margin-top: 10vh;
     word-break: break-word;
-   
+
     .stonks-go-brr {
       line-height: 200%;
 
